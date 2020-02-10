@@ -146,7 +146,7 @@ public class sortingInterfce extends javax.swing.JFrame {
      String joinedString; // used to display sorted digits on the jLabel
     
     // Algorithms
-     /*/
+    
     static void bubbleSort(int[] arr){ 
         int n = arr.length;
         for (int i = 0; i < n-1; i++){
@@ -161,7 +161,7 @@ public class sortingInterfce extends javax.swing.JFrame {
             }
         }
     } // end of bubbleSort()
-    */
+    
     static void selectionSort(int[] arr){
        int n = arr.length;
         for (int i = 0; i < n - 1; i++)  {  
